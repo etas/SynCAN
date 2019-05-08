@@ -1,6 +1,6 @@
 # SynCAN Dataset 
 
-The goal of this dataset which we call SynCAN Dataset (Synthetic CAN Bus Data) is to provide a benchmark to evaluate and compare different CAN Intrusion Detection Systems (IDS) on different attack scenarios in the signal space. It should be used to train an IDS in an unsupervised manner and evaluate its performance on normal an anomolous data. This data set was created as supplementary material for the paper (“To Appear”).
+The goal of this dataset, which we call SynCAN Dataset (Synthetic CAN Bus Data), is to provide a benchmark to evaluate and compare different CAN Intrusion Detection Systems (IDS) on different attack scenarios in the signal space. It should be used to train an IDS in an unsupervised manner and evaluate its performance on normal an anomolous data. This data set was created as supplementary material for the paper (“To Appear”).
 
 ## Data Description
 
@@ -8,7 +8,7 @@ If you plan to use this data set for your own research, please cite:
 
 (“To Appear”)
 
-In the following, a short description of the data set is given. Please refer to the paper (“To Appear”) for more details. 
+In the following, a short description of the data set is given. We refer to the paper (“To Appear”) for more details. 
 
 The data set consists of a training data set and six test data sets that all contain the following columns: 
 
@@ -26,13 +26,13 @@ In the data set the number of signals of the IDs is:  id1:2, id2:3, id3:2, id4:1
 The data set consistis of the training data (train.csv) and six test data sets. The latter are: 
 
 1. test_normal.csv: This data set consists entirely of normal data i.e. no intrusions are present. Hence, the label is equal to zero for all data in this file. It can be used to evaluate the performance of an IDS on unperturbated data.
-2. test_plateau.csv: A single signal is overwritten and set to a constant value over a period of time. 
+2. test_plateau.csv: A signal is overwritten and set to a constant value over a period of time. 
 3. test_continuous.csv: A signal is overwritten in such a way that it drifts slowly away from its true value. 
 4. test_playback.csv: Over a period of time, a signal value is overwritten with a recorded time series of values of that same signal. 
 5. test_suppress.csv: The attacker prevents a ECU from sending messages, for example, by turning it off over a period of time. This kind of attack implies that messages of some particular ID do not appear in the CAN traffic for some period of time.
 6. test_flooding.csv: The attacker sends messages of a particular existing ID with high frequency to the CAN bus.
 
-In test data 2-6, multiple attacks of the given type are injected. Each attack is followed by several seconds of normal traffic. Furthermore,  label equal to one represents an attack and label equal to zero represents normal data. An attack is always on a single signal or a signal ID over a period of time. During each attacked time interval, the label of all IDs is set to one. 
+In test data 2-6, multiple attacks of the given type are injected. Each attack is followed by several seconds of normal traffic. An attack is always on a single signal or a signal ID over a period of time. During each attacked time interval, the label of all IDs is set to one. 
 
 ## License (Abstract)
 
