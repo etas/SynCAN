@@ -1,1 +1,1 @@
-# SymCAN
+# SynCAN
