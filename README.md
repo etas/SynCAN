@@ -21,7 +21,7 @@ In the column 'Time' the time stamp of the current message is represented in mil
 The column 'ID' contains the identifiers for the IDs that are 'id1', ..., 'id10'.
 
 The columns 'Signal1_of_ID', ... , 'Signal4_of_ID' contain the actual signal values. Note, that different IDs have a different number of signals and that in general the signals from different IDs represent different signals, e.g., Signal1_of_ID of id0 and Signal1_of_ID of id5 are different. 
-In the data set the number of signals of the IDs is:  id1:2, id2:3, id3:2, id4:1, id5:2, id6:2, id7:2, id8:1, id9:1, id10:4 .
+In the data set the number of signals of the IDs id1, ..., id10 is: (2, 3, 2, 1, 2, 2, 2, 1, 1, 4) 
 
 The data set consistis of the training data (train.csv) and six test data sets. The latter are: 
 
