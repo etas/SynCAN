@@ -1,0 +1,9 @@
+License terms (full text)
+
+This SynCAN Dataset is made freely available to academic and non-academic entities for non-commercial purposes such as academic research, teaching, scientific publications, or personal experimentation simulations only, but not in the field (e.g. models based on this dataset used in the field), as this dataset has not been tested for field use. Permission is granted to use the data given that you agree to these license terms:
+
+1. The SynCAN Dataset is only intended for being used for non-commercial purposes such as academic research, teaching, scientific publications, or personal experimentation in simulations only, but not in the field, as this dataset has not been tested for field use. It comes “AS IS”, without any express or implied warranty. Although every effort has been made to ensure accuracy, we (ETAS GmbH and Robert Bosch GmbH) do not accept any responsibility for errors or omissions.
+2. You shall include a reference to the SynCAN Dataset in any work that makes use of the dataset. 
+3. You may not distribute this dataset or modified versions. It is permissible to distribute derivative works as far as they are abstract representations of this dataset (such as models trained on it or additional annotations that do not directly include any of the data) and do not allow to recover the dataset or something similar in character.
+4. You may not use the dataset or any derivative work for commercial purposes as, for example, licensing or selling the data, or using the data with a purpose to procure a commercial gain. You may not use the dataset in the field.
+5. All rights not expressly granted to you are reserved by us (ETAS GmbH and Robert Bosch GmbH).
