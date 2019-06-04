@@ -25,14 +25,14 @@ In the data set the number of signals of the IDs id1, ..., id10 is:
 
 (2, 3, 2, 1, 2, 2, 2, 1, 1, 4) 
 
-The data set consistis of the training data (train.csv) and six test data sets. The latter are: 
+The data set consistis of the training data (train_1.zip, ..., train_4.zip) and six test data sets. The latter are: 
 
-1. test_normal.csv: This data set consists entirely of normal data i.e. no intrusions are present. Hence, the label is equal to zero for all data in this file. It can be used to evaluate the performance of an IDS on unperturbated data.
-2. test_plateau.csv: A signal is overwritten and set to a constant value over a period of time. 
+1. test_normal.zip: This data set consists entirely of normal data i.e. no intrusions are present. Hence, the label is equal to zero for all data in this file. It can be used to evaluate the performance of an IDS on unperturbated data.
+2. test_plateau.zip: A signal is overwritten and set to a constant value over a period of time. 
 3. test_continuous.csv: A signal is overwritten in such a way that it drifts slowly away from its true value. 
-4. test_playback.csv: Over a period of time, a signal value is overwritten with a recorded time series of values of that same signal. 
-5. test_suppress.csv: The attacker prevents a ECU from sending messages, for example, by turning it off over a period of time. This kind of attack implies that messages of some particular ID do not appear in the CAN traffic for some period of time.
-6. test_flooding.csv: The attacker sends messages of a particular existing ID with high frequency to the CAN bus.
+4. test_playback.zip: Over a period of time, a signal value is overwritten with a recorded time series of values of that same signal. 
+5. test_suppress.zip: The attacker prevents a ECU from sending messages, for example, by turning it off over a period of time. This kind of attack implies that messages of some particular ID do not appear in the CAN traffic for some period of time.
+6. test_flooding.zip: The attacker sends messages of a particular existing ID with high frequency to the CAN bus.
 
 In test data 2-6, multiple attacks of the given type are injected. Each attack is followed by several seconds of normal traffic. An attack is always on a single signal or a signal ID over a period of time. During each attacked time interval, the label of all IDs is set to one. 
 
