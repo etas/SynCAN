@@ -25,7 +25,7 @@ In the data set the number of signals of the IDs id1, ..., id10 is:
 
 (2, 3, 2, 1, 2, 2, 2, 1, 1, 4) 
 
-The data set consistis of the training data (train_1.zip, ..., train_4.zip) and six test data sets. The latter are: 
+The data set consists of the training data and six test data sets. The four training data sets (train_1.zip, ..., train_4.zip)  should be concatenated in order to obtain the entire training data set. The test files are:
 
 1. test_normal.zip: This data set consists entirely of normal data i.e. no intrusions are present. Hence, the label is equal to zero for all data in this file. It can be used to evaluate the performance of an IDS on unperturbated data.
 2. test_plateau.zip: A signal is overwritten and set to a constant value over a period of time. 
