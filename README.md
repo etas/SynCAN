@@ -6,12 +6,12 @@ The goal of this dataset, which we call SynCAN Dataset (Synthetic CAN Bus Data),
 
 If you plan to use this data set for your own research, please cite:
 
-@article{Hanselmann2019CANet,
-  title={CANet: An Unsupervised Intrusion Detection System for High Dimensional CAN Bus Data},
-  author={Hanselmann, Markus and Strauss, Thilo and Dormann, Katharina and Ulmer, Holger},
-  journal={arXiv preprint arXiv:1906.02492},
-  year={2019}
-}
+<p>@article{Hanselmann2019CANet, </p>
+ <p> title={CANet: An Unsupervised Intrusion Detection System for High Dimensional CAN Bus Data},</p>
+ <p> author={Hanselmann, Markus and Strauss, Thilo and Dormann, Katharina and Ulmer, Holger},</p>
+<p> journal={arXiv preprint arXiv:1906.02492},</p>
+<p> year={2019}</p>
+<p>}</p>
 
 In the following, a short description of the data set is given. We refer to the <a href="https://arxiv.org/abs/1906.02492">paper </a> for more details. 
 
