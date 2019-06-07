@@ -1,6 +1,6 @@
 # SynCAN Dataset 
 
-The goal of this dataset, which we call SynCAN Dataset (Synthetic CAN Bus Data), is to provide a benchmark to evaluate and compare different CAN Intrusion Detection Systems (IDS) on different attack scenarios in the signal space. It should be used to train an IDS in an unsupervised manner and evaluate its performance on normal an anomolous data. This data set was created as supplementary material for the paper <a href="https://arxiv.org/abs/1906.02492">CANet: An Unsupervised Intrusion Detection System for High Dimensional CAN Bus Data<\a>.
+The goal of this dataset, which we call SynCAN Dataset (Synthetic CAN Bus Data), is to provide a benchmark to evaluate and compare different CAN Intrusion Detection Systems (IDS) on different attack scenarios in the signal space. It should be used to train an IDS in an unsupervised manner and evaluate its performance on normal an anomolous data. This data set was created as supplementary material for the paper <a href="https://arxiv.org/abs/1906.02492">CANet: An Unsupervised Intrusion Detection System for High Dimensional CAN Bus Data</a>.
 
 ## Data Description
 
@@ -13,7 +13,7 @@ If you plan to use this data set for your own research, please cite:
   year={2019}
 }
 
-In the following, a short description of the data set is given. We refer to the <a href="https://arxiv.org/abs/1906.02492">paper <\a> for more details. 
+In the following, a short description of the data set is given. We refer to the <a href="https://arxiv.org/abs/1906.02492">paper </a> for more details. 
 
 The data set consists of a training data set and six test data sets that all contain the following columns: 
 
