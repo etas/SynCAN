@@ -16,13 +16,6 @@ If you plan to use this data set for your own research, please cite:
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;pages={58194-58205},<br>
 }
 
-@article{hanselmann2019canet, <br>
-title={CANet: An Unsupervised Intrusion Detection System for High Dimensional CAN Bus Data},<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;author={Hanselmann, Markus and Strauss, Thilo and Dormann, Katharina and Ulmer, Holger},<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;journal={arXiv preprint arXiv:1906.02492},<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;year={2019}<br>
-}
-
 In the following, a short description of the data set is given. We refer to the <a href="https://arxiv.org/abs/1906.02492">paper </a> for more details. 
 
 The data set consists of a training data set and six test data sets that all contain the following columns: 
