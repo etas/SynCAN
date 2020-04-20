@@ -16,7 +16,7 @@ If you plan to use this data set for your own research, please cite:
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;pages={58194-58205},<br>
 }
 
-In the following, a short description of the data set is given. We refer to the <a href="https://arxiv.org/abs/1906.02492">paper </a> for more details. 
+In the following, a short description of the data set is given. We refer to the <a href="https://ieeexplore.ieee.org/document/9044377">paper </a> for more details. 
 
 The data set consists of a training data set and six test data sets that all contain the following columns: 
 
