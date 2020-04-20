@@ -1,13 +1,23 @@
 # SynCAN Dataset 
 
-The goal of this dataset, which we call SynCAN Dataset (Synthetic CAN Bus Data), is to provide a benchmark to evaluate and compare different CAN Intrusion Detection Systems (IDS) on different attack scenarios in the signal space. It should be used to train an IDS in an unsupervised manner and evaluate its performance on normal an anomolous data. This data set was created as supplementary material for the paper <a href="https://arxiv.org/abs/1906.02492">CANet: An Unsupervised Intrusion Detection System for High Dimensional CAN Bus Data</a>.
+The goal of this dataset, which we call SynCAN Dataset (Synthetic CAN Bus Data), is to provide a benchmark to evaluate and compare different CAN Intrusion Detection Systems (IDS) on different attack scenarios in the signal space. It should be used to train an IDS in an unsupervised manner and evaluate its performance on normal an anomolous data. This data set was created as supplementary material for the paper <a href="https://ieeexplore.ieee.org/document/9044377">CANet: An Unsupervised Intrusion Detection System for High Dimensional CAN Bus Data</a>.
 
 ## Data Description
 
 If you plan to use this data set for your own research, please cite:
 
+@ARTICLE{9044377,  <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;author={M. {Hanselmann} and T. {Strauss} and K. {Dormann} and H. {Ulmer}}, <br> 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;journal={IEEE Access},  <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;title={CANet: An Unsupervised Intrusion Detection System for High Dimensional CAN Bus Data},   <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;year={2020},  <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;volume={8},  <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;number={},  <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;pages={58194-58205},<br>
+}
+
 @article{hanselmann2019canet, <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;title={CANet: An Unsupervised Intrusion Detection System for High Dimensional CAN Bus Data},<br>
+title={CANet: An Unsupervised Intrusion Detection System for High Dimensional CAN Bus Data},<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;author={Hanselmann, Markus and Strauss, Thilo and Dormann, Katharina and Ulmer, Holger},<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;journal={arXiv preprint arXiv:1906.02492},<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;year={2019}<br>
