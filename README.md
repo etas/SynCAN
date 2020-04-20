@@ -7,14 +7,14 @@ The goal of this dataset, which we call SynCAN Dataset (Synthetic CAN Bus Data),
 If you plan to use this data set for your own research, please cite:
 
 ```
-@ARTICLE{9044377, <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;author={M. {Hanselmann} and T. {Strauss} and K. {Dormann} and H. {Ulmer}}, <br> 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;journal={IEEE Access},  <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;title={CANet: An Unsupervised Intrusion Detection System for High Dimensional CAN Bus Data},   <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;year={2020},  <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;volume={8},  <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;number={},  <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;pages={58194-58205}<br>
+@ARTICLE{9044377, 
+    author={M. {Hanselmann} and T. {Strauss} and K. {Dormann} and H. {Ulmer}}, 
+    journal={IEEE Access},  
+    title={CANet: An Unsupervised Intrusion Detection System for High Dimensional CAN Bus Data},   
+    year={2020},  
+    volume={8}, 
+    number={},  
+    pages={58194-58205}
 }
 ```
 
@@ -22,7 +22,9 @@ In the following, a short description of the data set is given. We refer to the 
 
 The data set consists of a training data set and six test data sets that all contain the following columns: 
 
+```
 Label,  ID,  Time,  Signal1 _of_ID,  Signal2 _of_ID,  Signal3 _of_ID,  Signal4 _of_ID
+```
 
 The column 'Label' indicates whether the data row is to be considered as normal (Label=0) or as intrusion (Label=1). Since we assume that the IDS is trained in an unsupervised manner, the label on the training data set is always set to zero, meaning that there are no intrusions (the column is just there for a consistent representation of the data).
 
@@ -33,7 +35,9 @@ The column 'ID' contains the identifiers for the IDs that are 'id1', ..., 'id10'
 The columns 'Signal1_of_ID', ... , 'Signal4_of_ID' contain the actual signal values. Note, that different IDs have a different number of signals and that in general the signals from different IDs represent different signals, e.g., Signal1_of_ID of id0 and Signal1_of_ID of id5 are different. 
 In the data set the number of signals of the IDs id1, ..., id10 is: 
 
+```
 (2, 3, 2, 1, 2, 2, 2, 1, 1, 4) 
+```
 
 The data set consists of the training data and six test data sets. The four training data sets (train_1.zip, ..., train_4.zip)  should be concatenated in order to obtain the entire training data set. The test files are:
 
