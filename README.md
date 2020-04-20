@@ -6,8 +6,8 @@ The goal of this dataset, which we call SynCAN Dataset (Synthetic CAN Bus Data),
 
 If you plan to use this data set for your own research, please cite:
 
-<p style="color:grey;">
-@ARTICLE{9044377,  <br>
+
+<p style="color:grey;">@ARTICLE{9044377, </p> <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;author={M. {Hanselmann} and T. {Strauss} and K. {Dormann} and H. {Ulmer}}, <br> 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;journal={IEEE Access},  <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;title={CANet: An Unsupervised Intrusion Detection System for High Dimensional CAN Bus Data},   <br>
@@ -16,7 +16,7 @@ If you plan to use this data set for your own research, please cite:
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;number={},  <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;pages={58194-58205}<br>
 }
-</p>
+
 
 In the following, a short description of the data set is given. We refer to the <a href="https://ieeexplore.ieee.org/document/9044377">paper </a> for more details. 
 
