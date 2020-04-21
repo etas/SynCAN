@@ -23,7 +23,7 @@ In the following, a short description of the data set is given. We refer to the 
 The data set consists of a training data set and six test data sets that all contain the following columns: 
 
 ```
-Label,  ID,  Time,  Signal1 _of_ID,  Signal2 _of_ID,  Signal3 _of_ID,  Signal4 _of_ID
+Label,  ID,  Time,  Signal1_of_ID,  Signal2_of_ID,  Signal3_of_ID,  Signal4_of_ID
 ```
 
 The column 'Label' indicates whether the data row is to be considered as normal (Label=0) or as intrusion (Label=1). Since we assume that the IDS is trained in an unsupervised manner, the label on the training data set is always set to zero, meaning that there are no intrusions (the column is just there for a consistent representation of the data).
